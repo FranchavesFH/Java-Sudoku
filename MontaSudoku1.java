@@ -17,7 +17,7 @@ public class MontaSudoku1 {
     final int[][] field = new int[n*n][n*n];
 	//matriz onde será armazenado o sudoku
 	
-    int x = (int)(Math.random()%10);
+    int x = (int)((Math.random()*10)%10);
     //semente aleatória para não gerar o mesmo sudoku
 	for(int i = 0; i < n; i++, x++)
             for(int j = 0; j < n; j++, x+=n)
